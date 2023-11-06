@@ -118,7 +118,8 @@ const App = () => {
 
       <footer>
         <small>
-          &copy; Eric McKee | <span class="date"></span>
+          &copy; Eric McKee |{" "}
+          <span class="date">{new Date().getFullYear()}</span>
         </small>
       </footer>
     </div>
